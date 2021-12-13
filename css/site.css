@@ -25,14 +25,30 @@ main>.container {
     padding: 60px 15px 0;
     margin-bottom: 5rem;
 }
+
+img {
+    width:150px;
+    height:42px;
+    object-fit:fit;
+}
+
+footer{
+    padding-right: 1rem;
+}
+
+footer .social>a{
+    color: var(--white-color)
+    opacity: 0.75;
+}
+
 .sticky-footer {
     position: sticky;
     left: 0;
     bottom: 0;
     width: 100%;
 }
-img {
-    width:250px;
-    height:42px;
-    object-fit:fit;
+
+footer .social>hover{
+    opacity: 0.9;
+    color: var(--secondary-color)
 }
