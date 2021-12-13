@@ -31,3 +31,8 @@ main>.container {
     bottom: 0;
     width: 100%;
 }
+img {
+    width:250px;
+    height:42px;
+    object-fit:fit;
+}
