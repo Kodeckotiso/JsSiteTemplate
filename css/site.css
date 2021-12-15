@@ -2,7 +2,7 @@
     --primary-color: #1d5888;
     --secondary-color: #53e49bd5;
     --dark-color: #292929;
-    --white-color: #dff3e4;
+    --white-color: #bddedf;
 }
 
 body{
@@ -26,11 +26,6 @@ main>.container {
     margin-bottom: 5rem;
 }
 
-img {
-    width:150px;
-    height:42px;
-    object-fit:fit;
-}
 
 footer{
     padding-right: 1rem;
@@ -38,7 +33,7 @@ footer{
 
 footer .social>a{
     color: var(--white-color)
-    opacity: 0.75;
+    
 }
 
 .sticky-footer {
